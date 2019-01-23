@@ -2,8 +2,12 @@
 
 This project can be used to modify permissions for a large number of Egnyte folders.
 
-GetAPItoken.sh is run to get the API Token required in the perms.sh script.
+  + The getapitoken.sh script is run to get the API Token required in the perms.sh script.
 
-The perms.txt file is a tab separated file that contains the list of paths and permissions in JSON format.
+  + The permns.sh script is what is used to modify permissions on a list of Egnyte folders that is specified in the perm.txt file.
 
-The perms.xlsx file is an option excel file used for encoding the path URLs.
+  + The perms.txt file is a tab separated value file that contains the list of folder paths and permissions in JSON format.
+
+  + The perms.xlsx file is an option excel file used for encoding the path URLs.
+  
+This project is designed and built for OSX on running Mojave. Your mileage may vary on other xnix variants.  Requires jq JSON parser to be installed.
